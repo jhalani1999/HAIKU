@@ -37,9 +37,7 @@ print(np.unique(np.array(length)))
 #%%
         
 for i in range(len(haiku)-1):
-    if len(haiku[i]) == 3:
-        pass
-    elif len(haiku[i])==7:
+    if len(haiku[i]) == 3 or len(haiku[i])==7:
         pass
     else:
         haiku.pop(i)
